@@ -55,7 +55,6 @@ An example showcasing how to use dynamic visibility in OpenHAB to seamlessly swa
 
 .sitemap file:
 
-Fragment kodu
 Frame label="Fairland Pool Heat Pump" {
     Switch item=FairlandPower label="Main Power" icon="switch"
     Switch item=FairlandOperatingMode label="Operating Mode" mappings=["Auto"="Auto", "Heating"="Heating", "Cooling"="Cooling"]
