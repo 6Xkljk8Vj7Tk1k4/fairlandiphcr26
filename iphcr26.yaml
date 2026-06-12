@@ -9,6 +9,10 @@ esp32:
   framework:
     type: arduino
 
+ota:
+  - platform: esphome
+    password: "YOUR_OTA_PASSWORD"
+
 wifi:
   ssid: "YOUR_WIFI_SSID"
   password: "YOUR_WIFI_PASSWORD"

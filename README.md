@@ -50,6 +50,15 @@ Locate the empty 4-pin socket on the heat pump's mainboard labeled `CN12` (often
 
 ---
 
+## 🚀 Compiling and Flashing (via Podman/Docker)
+
+If you prefer not to install ESPHome natively on your system, you can easily compile and upload the firmware using **Podman** (or Docker). 
+
+Place your YAML configuration file (e.g., `iphcr26.yaml`) in your current directory and run the following command to compile and flash Over-The-Air (OTA) directly to the ESP32's IP address:
+
+```bash
+podman run --rm -it -v "$PWD":/config ghcr.io/esphome/esphome run iphcr26.yaml --device 192.168.x.x
+
 🏡 OpenHAB UI Integration Example
 An example showcasing how to use dynamic visibility in OpenHAB to seamlessly swap the temperature sliders based on the currently selected operating mode, keeping the UI clean.
 
