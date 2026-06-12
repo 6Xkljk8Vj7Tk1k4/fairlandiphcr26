@@ -58,6 +58,7 @@ Place your YAML configuration file (e.g., `iphcr26.yaml`) in your current direct
 
 ```bash
 podman run --rm -it -v "$PWD":/config ghcr.io/esphome/esphome run iphcr26.yaml --device 192.168.x.x
+```
 
 🏡 OpenHAB UI Integration Example
 An example showcasing how to use dynamic visibility in OpenHAB to seamlessly swap the temperature sliders based on the currently selected operating mode, keeping the UI clean.
