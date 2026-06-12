@@ -61,6 +61,7 @@ podman run --rm -it -v "$PWD":/config ghcr.io/esphome/esphome run iphcr26.yaml -
 ```
 
 🏡 OpenHAB UI Integration Example
+
 An example showcasing how to use dynamic visibility in OpenHAB to seamlessly swap the temperature sliders based on the currently selected operating mode, keeping the UI clean.
 
 .sitemap file:
